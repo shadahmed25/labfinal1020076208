@@ -109,12 +109,18 @@ public class StudentList
 			String words[] = contents.split(","); 
 			char a[] = D.toCharArray();			
 System.out.println(words.length +" word(s) found Character" + a.length); 
-				}
-			}
+				
+			
 			System.out.println(count +" word(s) found " + a.length);
-			} 
-			catch (Exception e)
-			{} 
+			} else {  
+  			System.out.println(InvalidMsg);  
+  			return;
+			}
+
+			else {  
+  			System.out.println(InvalidMsg);  
+  			return;  
+			}
 			System.out.println(EndDialog);				
 		}
 	}

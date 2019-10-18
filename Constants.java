@@ -9,7 +9,9 @@ package ase;
     public  static  final  String count = "c"; 
     public  static final  String addWord = "+"; 
      public  static  final  String query = "?"; 
-     public  static final String DateFormat = "dd/mm/yyyy-hh:mm:ss a"; 
+     public  static final String DateFormat = "dd/mm/yyyy-hh:mm:ss a";
+	  public  static  final  String InvalidMsg = "Invalid Argument"; 
+ 
 
 }
 
