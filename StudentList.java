@@ -6,7 +6,13 @@ public class StudentList
 	public static void main(String[] args) 
 	{
 
-//		Check arguments
+
+/* Check arguments */
+            if (args == null || args.Length != 1)
+            {
+                Console.WriteLine("not text");
+                return; // Exit early.
+			}
 		if(args[0].equals("a")) 
 		{
 			System.out.println("Loading data ...");			
