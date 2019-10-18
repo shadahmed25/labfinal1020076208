@@ -82,14 +82,14 @@ public class StudentList
 							new FileInputStream(DataFile))); 
 			String reader = fileStream.readLine();
 			String word[] = r.split(",");	
-			boolean done = false;
+			
 			String t = args[0].substring(1);
-			for(int idx = 0; idx<i.length && !done; idx++) 
+			for(int idx = 0; idx<i.length ; idx++) 
 			{
 				if(i[idx].equals(t)) 
 				{
 					System.out.println(Success );
-						done=true;
+						break;
 				}
 			}
 			}
